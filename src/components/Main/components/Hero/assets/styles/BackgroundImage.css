@@ -13,4 +13,7 @@
 
 .hero figure img {
     width: 80%;
+
+    user-select: none;
+    -webkit-user-drag: none;
 }
