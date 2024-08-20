@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+
+    width: 100%;
+    padding: 3em 0em 3em 0em;
+
+    color: whitesmoke;
+    background-color: black;
+}
