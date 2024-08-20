@@ -2,17 +2,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 800px;
+    width: 1250px;
 
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -52.5%);
     z-index: 1;
 }
 
 .hero figure img {
-    width: 80%;
+    width: 750px;
 
     user-select: none;
     -webkit-user-drag: none;
