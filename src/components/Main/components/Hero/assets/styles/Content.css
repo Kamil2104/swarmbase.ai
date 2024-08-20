@@ -1,0 +1,11 @@
+article {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 7em;
+
+    color: white;
+
+    position: relative;
+    z-index: 2;
+}
