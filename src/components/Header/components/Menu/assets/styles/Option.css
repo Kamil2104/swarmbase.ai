@@ -9,7 +9,7 @@ nav button {
     background-color: black;
 
     border: none;
-    border-bottom: .25em solid rgb(44, 44, 44);
+    border-bottom: .1em solid #bed754;
     border-radius: .5em;
 
     position: relative;
@@ -26,7 +26,7 @@ nav button::before {
     width: 100%;
     height: 100%;
 
-    background: rgb(44, 44, 44);
+    background: rgba(198, 198, 198, 0.163);
 
     transition: bottom 0.3s;
     z-index: 1;
