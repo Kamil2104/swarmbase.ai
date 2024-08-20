@@ -1,10 +1,14 @@
 import Option from "./components/Option"
 
+import '../../assets/styles/Menu.css'
+
 const Menu = () => {
   return (
     <nav>
-        <Option />
-        {/* Add more options here */}
+        <Option text="What we do"/>
+        <Option text="Discover our team"/>
+        <Option text="Contact us"/>
+        <Option text="Join the waitlist"/>
     </nav>
   )
 }

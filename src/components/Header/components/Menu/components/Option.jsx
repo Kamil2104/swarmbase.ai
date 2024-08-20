@@ -1,9 +1,15 @@
-const Option = () => {
+import PropTypes from 'prop-types';
+
+import '../assets/styles/Option.css'
+
+const Option = (props) => {
   return (
-    <section className="option">
-      Option
-    </section>
+    <button> <span> {props.text} </span> </button>
   )
 }
+
+Option.propTypes = {
+  text: PropTypes.string.isRequired,
+};
 
 export default Option
