@@ -1,0 +1,14 @@
+.hero {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    height: 600px;
+    width: 1100px;
+    padding-bottom: 4em;
+
+    background-color: #101427;
+
+    position: relative;
+    overflow: hidden;
+}
