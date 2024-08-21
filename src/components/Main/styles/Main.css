@@ -5,6 +5,18 @@ main {
     align-items: center;
     gap: 4em;
 
+    opacity: 0;
+
     color: whitesmoke;
     background-color: #101427;
+
+    animation: showMainContent 1s ease-in .75s forwards;
+}
+
+@keyframes showMainContent {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
 }
