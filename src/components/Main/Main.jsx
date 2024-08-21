@@ -1,6 +1,6 @@
 import Hero from "./components/Hero/Hero"
 
-import '../../assets/styles/Main.css'
+import './styles/Main.css'
 
 const Main = () => {
   return (

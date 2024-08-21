@@ -1,7 +1,7 @@
-import BackgroundImage from './components/BackgroundImage.jsx'
+import BackgroundImage from './components/BackgroundImage/BackgroundImage.jsx'
 import Content from './components/Content/Content.jsx'
 
-import '../../assets/styles/Hero.css'
+import './styles/Hero.css'
 
 const Hero = () => {
   return (

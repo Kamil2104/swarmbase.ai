@@ -1,4 +1,4 @@
-import '../assets/styles/Text.css';
+import './styles/Text.css';
 
 const Text = () => {
     return (

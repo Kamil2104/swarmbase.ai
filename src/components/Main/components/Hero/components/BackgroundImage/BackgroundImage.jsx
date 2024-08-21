@@ -1,6 +1,6 @@
-import RedRing from '../assets/images/RedRing.png';
+import RedRing from './images/RedRing.png'
 
-import '../assets/styles/BackgroundImage.css'
+import './styles/BackgroundImage.css'
 
 const BackgroundImage = () => {
   return (
