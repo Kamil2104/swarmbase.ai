@@ -1,9 +1,17 @@
+import PropTypes from 'prop-types';
+
 import './styles/SecondaryText.css';
 
-const SecondaryText = () => {
+const SecondaryText = (props) => {
   return (
-    <div>SecondaryText</div>
+    <>
+      <h3> {props.content} </h3>
+    </>
   )
+}
+
+SecondaryText.propTypes = {
+  content: PropTypes.string.isRequired
 }
 
 export default SecondaryText

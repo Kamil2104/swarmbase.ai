@@ -1,9 +1,17 @@
+import PropTypes from 'prop-types';
+
 import './styles/MainText.css';
 
-const MainText = () => {
+const MainText = (props) => {
   return (
-    <div>MainText</div>
+    <>
+      <h2> {props.content} </h2>
+    </>
   )
+}
+
+MainText.propTypes = {
+  content: PropTypes.string.isRequired
 }
 
 export default MainText
