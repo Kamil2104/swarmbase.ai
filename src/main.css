@@ -2,6 +2,8 @@ body {
     margin: 0;
     background-color: #101427;
 
+    font-family: Open Sans;
+
     overflow-x: hidden;
 
     animation: enableOverflow 1ms linear forwards 1.5s;
