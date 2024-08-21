@@ -4,4 +4,16 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 2em;
+
+    animation: showMenu .75s ease-in;
+}
+
+@keyframes showMenu {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    } to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
