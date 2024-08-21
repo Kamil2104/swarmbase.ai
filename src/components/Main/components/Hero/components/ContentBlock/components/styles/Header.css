@@ -1,4 +1,4 @@
-.content header {
+.contentBlock header {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -10,13 +10,13 @@
     background-color: transparent;
 }
 
-.content header h1 {
+.contentBlock header h1 {
     font-size: 4em;
 
     margin: 0;
     padding-left: .25em;
 }
 
-.content header h1:first-child {
+.contentBlock header h1:first-child {
     border-left: .1em solid #bed754;
 }

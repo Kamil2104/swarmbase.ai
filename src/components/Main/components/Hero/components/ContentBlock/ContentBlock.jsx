@@ -2,11 +2,11 @@ import Header from './components/Header'
 import Text from './components/Text'
 import Button from './components/Button'
 
-import './styles/Content.css';
+import './styles/ContentBlock.css';
 
-const Content = () => {
+const ContentBlock = () => {
   return (
-    <section className='content'>
+    <section className='contentBlock'>
         <Header />
         <Text />
         <Button />
@@ -14,4 +14,4 @@ const Content = () => {
   )
 }
 
-export default Content
+export default ContentBlock

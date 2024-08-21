@@ -1,4 +1,4 @@
-.content button {
+.contentBlock button {
     width: 200px;
     padding: .5em;
 
@@ -16,7 +16,7 @@
     transition: color 0.2s;
 }
 
-.content button::before {
+.contentBlock button::before {
     content: '';
     position: absolute;
 
@@ -31,15 +31,15 @@
     z-index: 1;
 }
 
-.content button:hover::before {
+.contentBlock button:hover::before {
     bottom: 0;
 }
 
-.content button:hover {
+.contentBlock button:hover {
     cursor: pointer;
 }
 
-.content button span {
+.contentBlock button span {
     position: relative;
     z-index: 2;
 }
