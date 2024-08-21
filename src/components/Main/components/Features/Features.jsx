@@ -1,4 +1,5 @@
 import Feature from './components/Feature/Feature.jsx'
+import Information from './components/Information/Information.jsx'
 
 import Icon1 from './icons/Icon1.jpg'
 import Icon2 from './icons/Icon2.jpg'
@@ -16,7 +17,7 @@ const Features = () => {
         <Feature icon={Icon3} alt="Icon of " secondaryText="Experiment" mainText="On Everything" />
       </section>
       <section className='informationContainer'>
-        {/* Here will be displayed Information component */}
+        <Information />
       </section>
     </section>
   )

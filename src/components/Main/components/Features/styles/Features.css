@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 3em;
+    gap: 5em;
 
     width: 1250px;
 
@@ -21,7 +21,15 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 15em;
 
-    width: 1250px;
+    width: 100%;
+}
+
+.features .informationContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 100%;
 }
