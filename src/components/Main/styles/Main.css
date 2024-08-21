@@ -10,7 +10,7 @@ main {
     color: whitesmoke;
     background-color: #101427;
 
-    animation: showMainContent 1s ease-in .75s forwards;
+    animation: showMainContent .75s ease-in .75s forwards;
 }
 
 @keyframes showMainContent {
