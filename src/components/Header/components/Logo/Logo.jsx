@@ -1,6 +1,6 @@
-import SwarmbaseLogo from '../../../assets/images/SwarmbaseLogo.png';
+import SwarmbaseLogo from './images/SwarmbaseLogo.png';
 
-import '../assets/styles/Logo.css'
+import './styles/Logo.css'
 
 const Logo = () => {
   return (

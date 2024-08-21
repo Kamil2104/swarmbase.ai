@@ -1,7 +1,7 @@
-import Logo from './components/Logo'
-import Menu from './components/Menu/Menu'
+import Logo from './components/Logo/Logo.jsx'
+import Menu from './components/Menu/Menu.jsx'
 
-import '../../assets/styles/Header.css'
+import './styles/Header.css'
 
 const Header = () => {
   return (

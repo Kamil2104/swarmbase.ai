@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-import '../assets/styles/Option.css'
+import './styles/Option.css';
 
 const Option = (props) => {
   return (

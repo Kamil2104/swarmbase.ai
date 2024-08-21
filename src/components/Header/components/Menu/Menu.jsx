@@ -1,6 +1,6 @@
-import Option from "./components/Option"
+import Option from "./components/Option.jsx"
 
-import '../../assets/styles/Menu.css'
+import './styles/Menu.css'
 
 const Menu = () => {
   return (
