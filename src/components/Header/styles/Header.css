@@ -3,7 +3,7 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 5em;
+    gap: 3em;
 
     width: 100%;
     padding: 3em 0em 3em 0em;

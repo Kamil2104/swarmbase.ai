@@ -1,7 +1,7 @@
 header figure {
     margin: 0;
 
-    animation: showLogo .75s linear;
+    animation: showLogo .75s ease-in;
 }
 
 header figure img {

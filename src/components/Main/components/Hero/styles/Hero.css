@@ -2,11 +2,12 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    background-color: #0F1427;
 
     height: 700px;
     width: 1250px;
 
-    background-color: #101427;
+    padding-left: 2em;
 
     position: relative;
     overflow: hidden;

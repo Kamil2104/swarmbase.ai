@@ -8,7 +8,7 @@ main {
     opacity: 0;
 
     color: whitesmoke;
-    background-color: #101427;
+    background-color: #0F1427;
 
     animation: showMainContent .75s ease-in .75s forwards;
 }
