@@ -1,6 +1,8 @@
 .innovation .content p {
-    margin: 0;
-    font-weight: 100;
-
     width: 450px;
+
+    margin: 0;
+
+    font-size: 1.2em;
+    font-weight: 100;
 }
