@@ -2,7 +2,7 @@ import './styles/Heading.css'
 
 const Heading = () => {
   return (
-        Heading
+        <h1> Innovation </h1>
   )
 }
 

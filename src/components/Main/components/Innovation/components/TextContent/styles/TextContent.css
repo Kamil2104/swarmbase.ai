@@ -1,11 +1,9 @@
-.innovation {
+.innovation .textContent {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 1em;
+    gap: 1.25em;
 
-    width: 1250px;
-
-    padding-bottom: 4em;
+    width: 50%;
 }

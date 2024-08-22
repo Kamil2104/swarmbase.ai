@@ -1,0 +1,7 @@
+.divider {
+    height: 5px;
+    width: 100px;
+    border-radius: 1em;
+
+    background-image: linear-gradient(339deg, #ff204e, #ff204e);
+}

@@ -1,15 +1,16 @@
-import Heading from './components/Heading'
-import Subheading from './components/Subheading'
-import Content from './components/Content'
+import TextContent from './components/TextContent/TextContent'
 
 import './styles/Innovation.css'
 
 const Innovation = () => {
   return (
     <section className='innovation'>
-        <Heading />
-        <Subheading />
-        <Content />
+      <section className='textContent'>
+        <TextContent />
+      </section>
+      <section className='imageContent'>
+
+      </section>
     </section>
   )
 }
