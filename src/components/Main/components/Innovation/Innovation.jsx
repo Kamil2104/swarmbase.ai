@@ -1,4 +1,5 @@
 import TextContent from './components/TextContent/TextContent'
+import ImageContent from './components/ImageContent/ImageContent'
 
 import './styles/Innovation.css'
 
@@ -9,7 +10,7 @@ const Innovation = () => {
         <TextContent />
       </section>
       <section className='imageContent'>
-
+       <ImageContent />
       </section>
     </section>
   )
