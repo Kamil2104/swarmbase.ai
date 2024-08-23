@@ -1,9 +1,18 @@
+import PropTypes from 'prop-types'
+
 import './style/Photo.css';
 
-const Photo = () => {
+const Photo = (props) => {
   return (
-    <div>Photo</div>
+    <section className='photo'>
+      <img src={props.photo} alt={`Photo of ${props.name}`} />
+    </section>
   )
+}
+
+Photo.propTypes = {
+  photo: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired
 }
 
 export default Photo

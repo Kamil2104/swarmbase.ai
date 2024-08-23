@@ -1,9 +1,17 @@
+import PropTypes from 'prop-types'
+
 import './style/Occupation.css';
 
-const Occupation = () => {
+const Occupation = (props) => {
   return (
-    <div>Occupation</div>
+    <section className='occupation'>
+      <p> {props.occupation} </p>
+    </section>
   )
+}
+
+Occupation.propTypes = {
+  occupation: PropTypes.string.isRequired
 }
 
 export default Occupation

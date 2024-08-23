@@ -1,0 +1,30 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 250px;
+    width: 35%;
+    gap: 0em;
+
+    padding: 2em 0em 2em 2em;
+    margin-bottom: 2em;
+
+    border-radius: 2em;
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.048), #0f1427);
+}
+
+.card p {
+    margin: 0;
+}
+
+.card .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1em;
+    height: 50px;
+
+    width: 100%;
+}

@@ -15,11 +15,3 @@
 
     box-shadow: 0px 0px 18px rgb(50, 146, 214);
 }
-
-.imageContent img:first-child {
-    margin-right: 2em;
-}
-
-.imageContent img:last-child {
-    margin-right: 8em;
-}

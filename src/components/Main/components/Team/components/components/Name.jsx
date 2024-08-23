@@ -1,9 +1,17 @@
+import PropTypes from 'prop-types'
+
 import './style/Name.css';
 
-const Name = () => {
+const Name = (props) => {
   return (
-    <div>Name</div>
+    <section className='name'>
+      <p> {props.name} </p>
+    </section>
   )
+}
+
+Name.propTypes = {
+  name: PropTypes.string.isRequired
 }
 
 export default Name
