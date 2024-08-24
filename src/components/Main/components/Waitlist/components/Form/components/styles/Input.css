@@ -1,0 +1,32 @@
+form .inputGroup input[type="text"],
+form .inputGroup input[type="email"] {
+    width: 80%;
+    padding: .5em;
+
+    outline: none;
+    border: none;
+    border: .1em solid white;
+
+    color: white;
+    background-color: transparent;
+
+    font-size: 1.25em;
+}
+
+form .inputGroup input[type="email"] {
+    width: calc(100% - 1em);
+}
+
+form .row .inputGroup label,
+form .row2 .inputGroup label {
+    padding-bottom: .5em;
+}
+
+form .row .inputGroup span,
+form .row2 .inputGroup span {
+    color: #ff204e;
+}
+
+form .row .inputGroup input {
+    width: calc(250px - 1.2em);
+}

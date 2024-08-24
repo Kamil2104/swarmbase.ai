@@ -2,7 +2,7 @@ import './styles/Button.css';
 
 const Button = () => {
   return (
-    <></>
+    <button> REGISTER NOW </button>
   )
 }
 

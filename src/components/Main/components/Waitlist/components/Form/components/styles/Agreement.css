@@ -1,0 +1,27 @@
+form .userData .agreement {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+}
+
+form .userData .agreement label.agreementAcceptation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+
+    font-size: .9em;
+    color: rgba(255, 255, 255, 0.742);;
+}
+
+form .userData .agreement input[type="checkbox"] {
+    accent-color: green;
+
+    margin: 0;
+}
+
+form .userData .agreement input[type="checkbox"]:hover {
+    cursor: pointer;
+}

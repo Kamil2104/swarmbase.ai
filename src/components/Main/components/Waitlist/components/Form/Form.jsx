@@ -9,9 +9,16 @@ const Form = () => {
     return (
       <form>
         <Heading />
-        <Input />
-        <Input />
-        <Agreement />
+        <section className='userData'>
+          <section className='row'>
+            <Input label="First name" type="text" />
+            <Input label="Second name" type="text" />
+          </section>
+          <section className='row2'>
+            <Input label="E-mail" type="email" />
+          </section>
+          <Agreement />
+        </section>
         <Button />
       </form>
     )

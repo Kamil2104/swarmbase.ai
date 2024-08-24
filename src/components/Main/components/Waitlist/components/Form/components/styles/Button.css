@@ -1,0 +1,15 @@
+form button {
+    font-size: 1.1em;
+    padding: .75em 1em .75em 1em;
+
+    outline: none;
+    border: none;
+    border-radius: .5em;
+
+    color: white;
+    background-color: #0F1427;
+}
+
+form button:hover {
+    cursor: pointer;
+}
