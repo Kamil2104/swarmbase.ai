@@ -1,0 +1,9 @@
+.waitlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1250px;
+
+    padding-bottom: 4em;
+}
