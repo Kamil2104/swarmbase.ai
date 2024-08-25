@@ -3,6 +3,7 @@ import Features from "./components/Features/Features"
 import Innovation from "./components/Innovation/Innovation"
 import Team from "./components/Team/Team"
 import Waitlist from './components/Waitlist/Waitlist'
+import Footer from './components/Footer/Footer'
 
 import './styles/Main.css'
 
@@ -14,6 +15,7 @@ const Main = () => {
         <Innovation />
         <Team />
         <Waitlist />
+        <Footer />
     </main>
   )
 }
