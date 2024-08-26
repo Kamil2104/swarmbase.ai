@@ -1,0 +1,40 @@
+.contactOption {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 200px;
+    width: 400px;
+    background-color: transparent;
+}
+
+.contactOption .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 30%;
+    padding-left: 2em;
+}
+
+.contactOption:first-child .icon {
+    padding-right: 1.2em;
+}
+
+.contactOption .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 200px;
+    width: 70%;
+}
+
+.contactOption .col p {
+    margin: 0;
+}
+
+.contactOption .col p:nth-child(2) {
+    margin-bottom: 1em;
+}

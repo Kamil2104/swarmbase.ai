@@ -1,0 +1,7 @@
+.contactOption:first-child img {
+    height: 55px;
+}
+
+.contactOption:last-child img {
+    height: 70px;
+}
