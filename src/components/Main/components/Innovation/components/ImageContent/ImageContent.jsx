@@ -9,8 +9,8 @@ import './styles/ImageContent.css';
 const ImageContent = () => {
   return (
     <>
-      <Image iconSrc={ComputerHeadIcon} iconAlt="Head with computer links icon" imageSrc={Robot1} imageAlt="Photo of robot" row="firstRow"/>
-      <Image imageSrc={Robot2} imageAlt="Photo of robots in suits" row="lastRow"/>
+      <Image iconSrc={ComputerHeadIcon} iconAlt="Head with computer links icon" imageSrc={Robot1} imageAlt="Photo of robot" imageClassname="robot" row="firstRow"/>
+      <Image imageSrc={Robot2} imageAlt="Photo of robots in suits" imageClassname="robotsInSuits" row="lastRow"/>
     </>
   )
 }

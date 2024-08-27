@@ -9,7 +9,7 @@ const Image = (props) => {
           <img src={props.iconSrc} alt={props.iconAlt} className='icon'/>
         </section>
         <section className={props.row} />
-        <img src={props.imageSrc} alt={props.imageAlt} className='image'/>
+        <img src={props.imageSrc} alt={props.imageAlt} className={props.imageClassname}/>
     </section>
   )
 }
@@ -19,7 +19,8 @@ Image.propTypes = {
     iconAlt: PropTypes.string.isRequired,
     row: PropTypes.string.isRequired,
     imageSrc: PropTypes.string.isRequired,
-    imageAlt: PropTypes.string.isRequired
+    imageAlt: PropTypes.string.isRequired,
+    imageClassname: PropTypes.string.isRequired
 }
 
 export default Image
