@@ -16,6 +16,11 @@ form .userData .agreement label.agreementAcceptation {
     color: rgba(255, 255, 255, 0.742);;
 }
 
+form .userData .agreement label.agreementAcceptation:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 form .userData .agreement input[type="checkbox"] {
     accent-color: green;
 

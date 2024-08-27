@@ -4,7 +4,7 @@ import './styles/Option.css';
 
 const Option = (props) => {
   return (
-    <button className={props.className}> <span> {props.text} </span> </button>
+    <button className={props.className}> {props.text} </button>
   )
 }
 
