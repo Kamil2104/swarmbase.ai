@@ -1,9 +1,10 @@
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     gap: 2em;
+    width: 900px;
 
     animation: showMenu .75s ease-in;
 }

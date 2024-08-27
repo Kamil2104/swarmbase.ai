@@ -1,11 +1,12 @@
 header figure {
+    width: 350px;
     margin: 0;
 
     animation: showLogo .75s ease-in;
 }
 
 header figure img {
-    width: 300px;
+    width: 350px;
 }
 
 @keyframes showLogo {
