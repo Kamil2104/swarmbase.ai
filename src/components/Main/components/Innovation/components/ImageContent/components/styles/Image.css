@@ -10,8 +10,8 @@
     justify-content: center;
     align-items: center;
 
-    height: 70px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
 
     margin-right: 7.3em;
 
@@ -27,8 +27,18 @@
     margin-right: 7.2em;
 }
 
-.image .iconBg img {
+.image .iconBg img.firstIcon {
     width: 90%;
+}
+
+.image .iconBg img.secondIcon {
+    width: 75%;
+}
+
+.image img.robot,
+.image img.robotsInSuits {
+    box-shadow: 1px 1px 21px rgba(0, 166, 255, .5);
+
 }
 
 .image img.robot {
@@ -43,7 +53,7 @@
 .image .lastRow {
     position: absolute;
 
-    height: 6px;
+    height: 7px;
     width: 176px;
     border-top-right-radius: .5em;
     border-bottom-right-radius: .5em;
