@@ -1,3 +1,6 @@
 .occupation {
-    font-size: 1em;
+    font-size: 1.1em;
+    padding: 0em 1em 1.5em 1em;
+
+    text-align: center;
 }

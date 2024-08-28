@@ -1,6 +1,6 @@
 .team {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
@@ -13,9 +13,9 @@
 
 .cards {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 2em;
 

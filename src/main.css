@@ -9,6 +9,11 @@ body {
     animation: enableOverflow 1ms linear forwards 1.5s;
 }
 
+body img {
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
 @keyframes enableOverflow {
     from {
         overflow-x: hidden;
