@@ -3,7 +3,7 @@ nav {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    gap: 3.5em;
+    gap: 2em;
     width: 900px;
 
     animation: showMenu .75s ease-in;

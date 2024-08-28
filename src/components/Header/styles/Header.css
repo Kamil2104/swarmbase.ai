@@ -1,12 +1,11 @@
-header {
+header.navbar {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 
+    height: 135px;
     width: 100%;
-    padding: 3em 0em 3em 0em;
 
-    color: whitesmoke;
     background-color: black;
 }

@@ -37,6 +37,7 @@
 
 .image img.robot,
 .image img.robotsInSuits {
+    border-radius: .75em;
     box-shadow: 1px 1px 21px rgba(0, 166, 255, .5);
 
 }

@@ -5,19 +5,43 @@ nav button {
     align-items: center;
     gap: .5em;
 
-    padding: .5em 1em .5em 1em;
-
+    padding-bottom: .45em;
     font-size: 1.25em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     color: rgb(238, 236, 236);
     background-color: black;
 
-    border-top: .1em solid gray;
-    border-left: .1em solid gray;
+    border: .1em solid black;
+    border-bottom: none;
 
     outline: none;
     overflow: hidden;
+
+    position: relative;
+    transition: color .2s ease-in;
+}
+
+nav button::after {
+    content: '';
+    position: absolute;
+
+    bottom: 0;
+    left: 0;
+
+    height: .1em;
+    width: 100%;
+
+    background-color: rgb(255, 255, 255);
+
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform .2s ease-in;
+}
+
+nav button:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 nav button:hover {
