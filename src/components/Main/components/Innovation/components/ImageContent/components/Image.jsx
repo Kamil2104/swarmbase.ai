@@ -6,10 +6,10 @@ const Image = (props) => {
   return (
     <section className='image'>
         <section className='iconBg'>
-          <img src={props.iconSrc} alt={props.iconAlt} className={props.iconClassname}/>
+          <img src={props.iconSrc} alt={props.iconAlt} className={props.iconClassname} loading='lazy'/>
         </section>
         <section className={props.row} />
-        <img src={props.imageSrc} alt={props.imageAlt} className={props.imageClassname}/>
+        <img src={props.imageSrc} alt={props.imageAlt} className={props.imageClassname} loading='lazy'/>
     </section>
   )
 }

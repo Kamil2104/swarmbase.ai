@@ -5,7 +5,7 @@ import './styles/Logo.css'
 const Logo = () => {
   return (
     <figure>
-        <img src={SwarmbaseLogo} alt="Swarmbase.ai logo" />
+        <img src={SwarmbaseLogo} alt="Swarmbase.ai logo" loading='lazy' />
     </figure>
   )
 }

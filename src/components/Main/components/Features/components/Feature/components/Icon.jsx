@@ -4,7 +4,7 @@ import './styles/Icon.css';
 
 const Icon = (props) => {
   return (
-    <img src={props.icon} alt={props.alt} className='icon'/>
+    <img src={props.icon} alt={props.alt} className='icon' loading='lazy'/>
   )
 }
 

@@ -8,7 +8,7 @@ const LinkedIn = (props) => {
   return (
     <section className='linkedin'>
       <a href={props.linkedin} target="_blank">
-          <img src={LinkedInIcon} alt="LinkedIn Icon" />
+          <img src={LinkedInIcon} alt="LinkedIn Icon" loading='lazy' />
       </a>
     </section>
   )

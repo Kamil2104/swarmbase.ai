@@ -5,7 +5,7 @@ import './style/Photo.css';
 const Photo = (props) => {
   return (
     <section className='photo'>
-      <img src={props.photo} alt={`Photo of ${props.name}`} />
+      <img src={props.photo} alt={`Photo of ${props.name}`} loading='lazy'/>
     </section>
   )
 }

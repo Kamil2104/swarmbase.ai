@@ -5,7 +5,7 @@ import './styles/BackgroundImage.css'
 const BackgroundImage = () => {
   return (
     <figure>
-        <img src={RedRing} alt="Red ring" />
+        <img src={RedRing} alt="Red ring" loading='lazy'/>
     </figure>
   )
 }
