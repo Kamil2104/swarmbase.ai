@@ -1,15 +1,21 @@
+import PropTypes from 'prop-types'
+
 import Contact from './components/Contact/Contact'
+import Statue from './components/Statue/Statue'
 
 import './styles/Footer.css'
 
-const Footer = () => {
+const Footer = (props) => {
   return (
     <footer>
-      <section className='footer'>
-        <Contact />
-      </section>
+      <Contact />
+      <Statue setMainContent={props.setMainContent}/>
     </footer>
   )
+}
+
+Footer.propTypes = {
+  setMainContent: PropTypes.func.isRequired
 }
 
 export default Footer

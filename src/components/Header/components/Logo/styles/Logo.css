@@ -9,6 +9,10 @@ header figure img {
     width: 325px;
 }
 
+header figure img:hover {
+  cursor: pointer;
+}
+
 @keyframes showLogo {
     from {
       opacity: 0;

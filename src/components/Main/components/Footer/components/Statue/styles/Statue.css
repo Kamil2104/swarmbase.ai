@@ -1,0 +1,15 @@
+.statue {
+    padding-bottom: 3em;
+}
+
+.statue p {
+    margin: 0;
+
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.742);
+}
+
+.statue p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

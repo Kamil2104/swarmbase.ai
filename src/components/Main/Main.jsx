@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 import Hero from "./components/Hero/Hero"
 import Features from "./components/Features/Features"
 import Innovation from "./components/Innovation/Innovation"
@@ -7,7 +9,7 @@ import Footer from './components/Footer/Footer'
 
 import './styles/Main.css'
 
-const Main = () => {
+const Main = (props) => {
   return (
     <main>
         <Hero />
@@ -15,9 +17,13 @@ const Main = () => {
         <Innovation />
         <Team />
         <Waitlist />
-        <Footer />
+        <Footer setMainContent={props.setMainContent}/>
     </main>
   )
+}
+
+Main.propTypes = {
+  setMainContent: PropTypes.func.isRequired
 }
 
 export default Main

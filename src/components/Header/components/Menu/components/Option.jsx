@@ -11,7 +11,6 @@ const Option = (props) => {
 }
 
 Option.propTypes = {
-  className: PropTypes.string.isRequired,
   componentId: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired
 };
