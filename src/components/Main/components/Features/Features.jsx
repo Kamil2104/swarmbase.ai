@@ -9,7 +9,7 @@ import './styles/Features.css';
 
 const Features = () => {
   return (
-    <section className="features">
+    <section className="features" id='features'>
       <h1> Features </h1>
       <section className='featuresContainer'>
         <Feature icon={Icon1} alt="Icon of robotic arm" secondaryText="Create" mainText="Agents, Tools & More" />

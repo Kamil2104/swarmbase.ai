@@ -8,7 +8,7 @@ import './styles/Contact.css'
 
 const Contact = () => {
   return (
-    <section className='contact'>
+    <section className='contact' id='contact'>
         <Heading />
         <section className='options'>
           <ContactOption iconSrc={EnvelopeIcon} iconAlt="Envelope icon" mainText="Send us an e-mail" secondaryText="We'd love to hear from you!" linkText="Mail us" />

@@ -5,9 +5,9 @@ import './styles/Menu.css'
 const Menu = () => {
   return (
     <nav>
-        <Option text="What we do" />
-        <Option text="Discover our team" />
-        <Option text="Contact us" />
+        <Option text="What we do" componentId="features"/>
+        <Option text="Discover our team" componentId="team"/>
+        <Option text="Contact us" componentId="contact"/>
     </nav>
   )
 }

@@ -9,7 +9,7 @@ import './styles/Team.css';
 
 const Team = () => {
   return (
-    <section className='team'>
+    <section className='team' id='team'>
         <Heading />
         <section className='cards'>
           <Card photo={Eric} name="Eric Panter" linkedin="https://www.linkedin.com/in/%F0%9F%A6%BE-eryk-panter-913038140/" occupation="Founder & AI Architect" />
