@@ -1,0 +1,39 @@
+.policy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    width: 100%;
+
+    padding-top: 5em;
+    color: whitesmoke;
+}
+
+.policy h1 {
+    margin: 0;
+    margin-bottom: .5em;
+
+    font-size: 3em;
+}
+
+.policy p {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.privacyPolicy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 1250px;
+}
+
+.cookiesPolicy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 1250px;
+}
