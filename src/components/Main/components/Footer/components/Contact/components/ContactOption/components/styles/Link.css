@@ -5,9 +5,5 @@
     color: white;
 
     text-decoration: underline;
-}
-
-.contactOption .col p.link:hover,
-.contactOption .col a:hover {
     cursor: pointer;
 }
