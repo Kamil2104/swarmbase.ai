@@ -10,7 +10,7 @@ const App = () => {
   const [mainContent, setMainContent] = useState("Main")
   return (
     <section className='app'>
-        <Toaster position='bottom-center'/>
+        <Toaster position='bottom-right'/>
         <Header mainContent={mainContent} setMainContent={setMainContent} />
         {mainContent === "Main"
           ? <Main setMainContent={setMainContent} />
