@@ -9,13 +9,14 @@ const Header = (props) => {
   return (
     <header className='navbar'>
         <Logo setMainContent={props.setMainContent} />
-        <Menu />
+        <Menu setMainContent={props.setMainContent} mainContent={props.mainContent}/>
     </header>
   )
 }
 
 Header.propTypes = {
   setMainContent: PropTypes.func.isRequired,
+  mainContent: PropTypes.string.isRequired
 };
 
 export default Header

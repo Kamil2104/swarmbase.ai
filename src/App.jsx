@@ -8,7 +8,7 @@ const App = () => {
   const [mainContent, setMainContent] = useState("Main")
   return (
     <section className='app'>
-        <Header setMainContent={setMainContent} />
+        <Header mainContent={mainContent} setMainContent={setMainContent} />
         {mainContent === "Main"
           ? <Main setMainContent={setMainContent} />
           : <PrivacyPolicy />

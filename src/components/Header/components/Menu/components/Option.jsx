@@ -1,16 +1,15 @@
 import PropTypes from 'prop-types';
 
-import { scrollToComponent } from '../../../../../functions/scrollToComponent.js';
-
 import './styles/Option.css';
 
-const Option = (props) => {
+const Option = ({handleScrollToComponent, componentId, text}) => {
   return (
-    <button onClick={() => scrollToComponent(props.componentId)}> {props.text} </button>
+    <button onClick={() => handleScrollToComponent(componentId)}> {text} </button>
   )
 }
 
 Option.propTypes = {
+  handleScrollToComponent: PropTypes.func.isRequired,
   componentId: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired
 };
