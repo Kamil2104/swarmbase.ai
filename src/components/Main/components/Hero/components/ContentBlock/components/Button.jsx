@@ -1,9 +1,11 @@
+import { scrollToComponent } from '../../../../../../../functions/scrollToComponent';
+
 import './styles/Button.css';
 
 const Button = () => {
     return (
         <>
-            <button> <span> Join the waitlist </span> </button>
+            <button onClick={() => scrollToComponent('waitlist')}> <span> Join the waitlist </span> </button>
         </>
     )
 }

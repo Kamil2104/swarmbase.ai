@@ -5,7 +5,7 @@ import './styles/Waitlist.css';
 
 const Waitlist = () => {
   return (
-    <section className="waitlist">
+    <section className="waitlist" id='waitlist'>
         <TextContent />
         <Form />
     </section>
