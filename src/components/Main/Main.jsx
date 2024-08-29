@@ -16,7 +16,7 @@ const Main = (props) => {
         <Features />
         <Innovation />
         <Team />
-        <Waitlist />
+        <Waitlist setMainContent={props.setMainContent}/>
         <Footer setMainContent={props.setMainContent}/>
     </main>
   )
