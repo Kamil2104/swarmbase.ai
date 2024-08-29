@@ -2,7 +2,7 @@ header figure {
     width: 350px;
     margin: 0;
 
-    animation: showLogo .75s ease-in;
+    animation: showLogo 1s ease-in;
 }
 
 header figure img {

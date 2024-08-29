@@ -15,7 +15,7 @@ const Menu = (props) => {
 
       setTimeout(() => {
         scrollToComponent(componentId);
-      }, 1500);
+      }, 1000);
     }
   }
 

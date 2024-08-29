@@ -6,7 +6,7 @@ nav {
     gap: 2em;
     width: 900px;
 
-    animation: showMenu .75s ease-in;
+    animation: showMenu 1s ease-in;
 }
 
 @keyframes showMenu {
