@@ -13,8 +13,8 @@ const Team = () => {
         <Heading />
         <section className='cards'>
           <Card photo={Eric} name="Eric Panter" linkedin="https://www.linkedin.com/in/%F0%9F%A6%BE-eryk-panter-913038140/" occupation="Founder & AI Architect" />
-          <Card photo={Greg} name="Greg Borkowski" linkedin="https://www.linkedin.com/in/gregai/" occupation="Business & Project Manager" />
           <Card photo={Joseph} name="PhD. Joseph Tran" linkedin="https://www.linkedin.com/in/jozef-tran/" occupation="AI Developer" />
+          <Card photo={Greg} name="Greg Borkowski" linkedin="https://www.linkedin.com/in/gregai/" occupation="Business & Project Manager" />
         </section>
     </section>
   )
