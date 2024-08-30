@@ -1,52 +1,114 @@
 .contentBlock button {
-    width: 225px;
-    padding: .5em;
+    width: 245px;
 
-    font-size: 1.5em;
-    color: white;
-    background-color: transparent;
+    padding: 0.6em 1em;
+    margin-top: 1em;
 
-    border: none;
-    border-bottom: .15em solid #c12d2c;
+    font-size: 1.45em;
+    font-weight: 600;
+    color: #F5F5F5;
+    background-color: rgba(193, 45, 44, 0.1);
+
+    border: 2px solid rgba(193, 45, 44, 0.8);
     border-radius: .5em;
+    box-shadow: 0 0 10px rgba(193, 45, 44, 0.3);
 
     position: relative;
+
+    transition: all 0.3s ease;
+
     overflow: hidden;
-    transition: color 0.3s, border-bottom 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.contentBlock button::before,
+.contentBlock button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+
+    width: 100%;
+
+    height: 100%;
+    background-color: rgba(193, 45, 44, 0.8);
+
+    transition: all 0.5s ease;
 }
 
 .contentBlock button::before {
-    content: '';
-    position: absolute;
+    left: -95%;
+    transform: skew(-20deg);
+}
 
-    bottom: -100%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-
-    background: linear-gradient(45deg, rgba(193, 45, 44, 0.3), rgba(255, 255, 255, 0.022));
-    transition: bottom 0.3s, transform 0.3s;
-    z-index: 1;
-    transform: scale(1.1);
+.contentBlock button::after {
+    right: -100%;
+    transform: skew(-20deg);
 }
 
 .contentBlock button:hover::before {
-    bottom: 0;
-    transform: scale(1);
+    left: -10%;
 }
 
-.contentBlock button:hover {
-    cursor: pointer;
-    color: #F5F5F5;
-    border-bottom: .15em solid #c12d2c;
+.contentBlock button:hover::after {
+    right: -10%;
 }
 
 .contentBlock button span {
     position: relative;
-    z-index: 2;
-    transition: transform 0.3s;
+
+    transition: all 0.3s ease;
+
+    z-index: 3;
 }
 
 .contentBlock button:hover span {
-    transform: translateY(-3px);
+    color: #F5F5F5;
+    animation: glitch 0.3s infinite;
+}
+
+.contentBlock button:hover {
+    box-shadow: 0 0 15px rgba(193, 45, 44, 0.6);
+}
+
+.contentBlock button:active {
+    transform: scale(0.98);
+}
+
+.contentBlock button::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+
+    background: linear-gradient(
+        to bottom right,
+        rgba(193, 45, 44, 0) 0%,
+        rgba(193, 45, 44, 0.1) 50%,
+        rgba(193, 45, 44, 0) 100%
+    );
+
+    transform: rotate(45deg);
+    animation: shine 3s infinite;
+}
+
+@keyframes glitch {
+    0% { transform: translate(0) }
+    20% { transform: translate(-2px, 2px) }
+    40% { transform: translate(-2px, -2px) }
+    60% { transform: translate(2px, 2px) }
+    80% { transform: translate(2px, -2px) }
+    100% { transform: translate(0) }
+}
+
+@keyframes shine {
+    0% {
+        top: -50%;
+        left: -50%;
+    }
+    100% {
+        top: 150%;
+        left: 150%;
+    }
 }
