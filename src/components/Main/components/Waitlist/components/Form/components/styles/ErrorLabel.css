@@ -17,8 +17,8 @@ form .errorLabel::after {
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 
     font-size: .9em;
-    font-weight: 500;
-    color: #da0000;
+    font-weight: 400;
+    color: #c30000;
 
     white-space: normal;
     word-wrap: break-word;
@@ -26,7 +26,7 @@ form .errorLabel::after {
     width: 100%;
     line-height: 1.2em;
 
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23da0000"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>');
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23c30000"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>');
     background-repeat: no-repeat;
     background-size: 1em;
     background-position: left center;

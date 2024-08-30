@@ -46,7 +46,7 @@ const Form = (props) => {
     e.preventDefault()
 
     if (isFormCorectlyCompleted(firstName, setFirstNameErrorMessage, lastName, setLastNameErrorMessage, email, setEmailErrorMessage, agreement, setAgreementErrorMessage)) {
-      // TODO: Sending an email to the user
+      alert("Sending an email to the user") // TODO: Sending an email to the user
     }
   }
     return (
