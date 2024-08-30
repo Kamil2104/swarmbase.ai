@@ -9,7 +9,11 @@ const Agreement = (props) => {
     <section className='agreement'>
       <section className='row'>
         <input type="checkbox" id='agreementAcceptation' value={props.agreement} onChange={() => props.onChangeHandler(!props.agreement)}/>
-        <label className='agreementAcceptation' onClick={() => props.setMainContent('Privacy Policy & cookies')}> By signing up, I agree to receive commercial information [...] </label> <span> * </span>
+        <section className='text'>
+          <label className='agreementAcceptation'> By signing up, you agree to </label>
+          <p onClick={() => props.setMainContent('Privacy Policy & cookies')}> our privacy policy and cookies policy </p>
+          <span> * </span>
+        </section>
       </section>
       <section className='error'>
         <ErrorLabel message={props.errorMessage}/>
