@@ -1,0 +1,10 @@
+form p {
+    margin: 0;
+    padding-top: .3em;
+
+    font-size: .9em;
+    font-weight: 500;
+    color: rgb(255, 0, 0);
+
+    visibility: visible;
+}
