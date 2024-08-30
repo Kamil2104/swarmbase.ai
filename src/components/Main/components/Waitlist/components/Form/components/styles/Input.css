@@ -1,5 +1,4 @@
-form .inputGroup input[type="text"],
-form .inputGroup input[type="email"] {
+form .inputGroup input {
     width: 80%;
     padding: .5em;
 
@@ -15,6 +14,10 @@ form .inputGroup input[type="email"] {
 
 form .inputGroup input[type="email"] {
     width: calc(100% - 1em);
+}
+
+form .inputGroup input:focus {
+    outline: none;
 }
 
 form .row .inputGroup label,

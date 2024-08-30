@@ -4,13 +4,14 @@ import './styles/ErrorLabel.css';
 
 const ErrorLabel = ({ message }) => {
     if (!message) return null;
+
     return (
-      <p className="error-message">{message}</p>
+      <section className='errorLabel' data-error={message}></section>
     );
-  }
+}
 
-  ErrorLabel.propTypes = {
+ErrorLabel.propTypes = {
     message: PropTypes.string
-  };
+};
 
-  export default ErrorLabel;
+export default ErrorLabel;
