@@ -24,7 +24,7 @@
 
 @media screen and (max-width: 900px) {
     header.navbar {
-        height: 175px;
+        height: 185px;
 
         flex-direction: column;
         gap: 1em;
@@ -38,7 +38,7 @@
     }
 
     header figure img {
-        width: 275px;
+        width: 350px;
     }
 
     nav {
@@ -55,7 +55,44 @@
 
 @media screen and (max-width: 600px) {
     header.navbar {
-        height: 155px;
+        height: 185px;
+    }
+
+    header figure {
+        width: 300px;
+    }
+
+    header figure img {
+        width: 300px;
+    }
+
+    nav {
+        width: 400px;
+        gap: 1em;
+    }
+
+    nav button {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    header.navbar {
+        height: 260px;
+    }
+
+    nav {
+        flex-direction: column;
+
+        width: 200px;
+
+        padding-top: 1em;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    header.navbar {
+        height: 240px;
     }
 
     header figure {
@@ -66,16 +103,12 @@
         width: 250px;
     }
 
-    nav {
-        width: 350px;
-    }
-
     nav button {
-        font-size: .8em;
+        font-size: .9em;
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 300px) {
     header.navbar {
         height: 220px;
     }
@@ -88,38 +121,7 @@
         width: 200px;
     }
 
-    nav {
-        flex-direction: column;
-        gap: 1em;
-
-        width: 150px;
-
-        padding-top: 1em;
-    }
-
     nav button {
         font-size: .8em;
-    }
-}
-
-@media screen and (max-width: 250px) {
-    header.navbar {
-        height: 180px;
-    }
-
-    header figure {
-        width: 150px;
-    }
-
-    header figure img {
-        width: 150px;
-    }
-
-    nav {
-        padding-top: .5em;
-    }
-
-    nav button {
-        font-size: .65em;
     }
 }

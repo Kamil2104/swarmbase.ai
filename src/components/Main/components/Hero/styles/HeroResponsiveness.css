@@ -38,18 +38,18 @@
 
 @media screen and (max-width: 900px) {
     .hero {
-        height: 425px;
+        height: 500px;
         width: 650px;
 
         padding-left: 0em;
     }
 
     .hero figure {
-        width: 400px;
+        width: 500px;
     }
 
     .hero figure img {
-        width: 400px;
+        width: 500px;
     }
 
     .contentBlock header h1 {
@@ -57,7 +57,7 @@
     }
 
     .contentBlock p {
-        font-size: .95em;
+        font-size: 1em;
         width: 350px;
     }
 
@@ -70,30 +70,26 @@
 
 @media screen and (max-width: 800px) {
     .hero {
-        height: 425px;
-        width: 475px;
+        height: 480px;
+        width: 500px;
     }
 
     .hero figure {
-        width: 300px;
+        width: 80%;
         margin: 0em;
     }
 
     .hero figure img {
-        width: 300px;
-    }
-
-    .contentBlock header h1 {
-        font-size: 2em;
+        width: 100%;
     }
 
     .contentBlock p {
-        font-size: .85em;
+        font-size: 1em;
         width: 300px;
     }
 
     .contentBlock button {
-        width: 170px;
+        width: 175px;
         font-size: 1em;
         margin-top: 0em;
     }
@@ -101,20 +97,59 @@
 
 @media screen and (max-width: 600px) {
     .hero {
-        height: 300px;
+        height: 455px;
         width: 350px;
     }
 
     .hero figure {
-        width: 200px;
-    }
-
-    .hero figure img {
-        width: 200px;
+        width: 100%;
     }
 
     .contentBlock {
-        gap: 1.5em;
+        gap: 2em;
+    }
+
+    .contentBlock header h1 {
+        font-size: 2.25em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .hero {
+        height: 420px;
+        width: 300px;
+    }
+
+    .contentBlock p {
+        width: 225px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .hero {
+        height: 400px;
+        width: 250px;
+    }
+
+    .contentBlock header h1 {
+        font-size: 2.1em;
+    }
+
+    .contentBlock p {
+        font-size: .9em;
+        width: 210px;
+    }
+
+    .contentBlock button {
+        width: 160px;
+        font-size: .9em;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .hero {
+        height: 350px;
+        width: 200px;
     }
 
     .contentBlock header h1 {
@@ -122,103 +157,12 @@
     }
 
     .contentBlock p {
-        font-size: .7em;
-        width: 220px;
-    }
-
-    .contentBlock button {
-        width: 140px;
         font-size: .8em;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .hero {
-        height: 275px;
-        width: 250px;
-    }
-
-    .hero figure {
-        width: 150px;
-    }
-
-    .hero figure img {
-        width: 150px;
-    }
-
-    .contentBlock {
-        gap: 1em;
-    }
-
-    .contentBlock header h1 {
-        font-size: 1.2em;
-    }
-
-    .contentBlock p {
-        font-size: .6em;
-        width: 150px;
+        width: 180px;
     }
 
     .contentBlock button {
-        width: 120px;
-        font-size: .7em;
-    }
-}
-
-@media screen and (max-width: 350px) {
-    .hero {
-        height: 235px;
-        width: 200px;
-    }
-
-    .hero figure {
-        width: 120px;
-    }
-
-    .hero figure img {
-        width: 120px;
-    }
-
-    .contentBlock header h1 {
-        font-size: 1em;
-    }
-
-    .contentBlock p {
-        font-size: .5em;
-        width: 120px;
-    }
-
-    .contentBlock button {
-        width: 100px;
-        font-size: .6em;
-    }
-}
-
-@media screen and (max-width: 250px) {
-    .hero {
-        height: 220px;
-        width: 175px;
-    }
-
-    .hero figure {
-        width: 120px;
-    }
-
-    .hero figure img {
-        width: 120px;
-    }
-
-    .contentBlock header h1 {
-        font-size: 1em;
-    }
-
-    .contentBlock p {
-        font-size: .5em;
-        width: 120px;
-    }
-
-    .contentBlock button {
-        width: 100px;
-        font-size: .6em;
+        width: 145px;
+        font-size: .8em;
     }
 }
