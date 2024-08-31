@@ -1,0 +1,125 @@
+@media screen and (max-width: 1400px) {
+    nav {
+        width: 650px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    header figure {
+        width: 300px;
+    }
+
+    header figure img {
+        width: 275px;
+    }
+
+    nav {
+        width: 450px;
+    }
+
+    nav button {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    header.navbar {
+        height: 175px;
+
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    header figure {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+
+    header figure img {
+        width: 275px;
+    }
+
+    nav {
+        justify-content: space-evenly;
+        width: 500px;
+
+        padding-top: 1.5em
+    }
+
+    nav button {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header.navbar {
+        height: 155px;
+    }
+
+    header figure {
+        width: 250px;
+    }
+
+    header figure img {
+        width: 250px;
+    }
+
+    nav {
+        width: 350px;
+    }
+
+    nav button {
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    header.navbar {
+        height: 220px;
+    }
+
+    header figure {
+        width: 200px;
+    }
+
+    header figure img {
+        width: 200px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 1em;
+
+        width: 150px;
+
+        padding-top: 1em;
+    }
+
+    nav button {
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    header.navbar {
+        height: 180px;
+    }
+
+    header figure {
+        width: 150px;
+    }
+
+    header figure img {
+        width: 150px;
+    }
+
+    nav {
+        padding-top: .5em;
+    }
+
+    nav button {
+        font-size: .65em;
+    }
+}

@@ -4,6 +4,7 @@ import Logo from './components/Logo/Logo.jsx'
 import Menu from './components/Menu/Menu.jsx'
 
 import './styles/Header.css'
+import './styles/HeaderResponsiveness.css'
 
 const Header = (props) => {
   return (
