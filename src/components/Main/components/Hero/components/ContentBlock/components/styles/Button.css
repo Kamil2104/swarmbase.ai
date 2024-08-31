@@ -15,7 +15,8 @@
 
     position: relative;
 
-    transition: all 0.3s ease;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    font-size: 1.45em;
 
     overflow: hidden;
     cursor: pointer;
@@ -55,10 +56,8 @@
 
 .contentBlock button span {
     position: relative;
-
-    transition: all 0.3s ease;
-
     z-index: 3;
+    transition: color 0.3s ease;
 }
 
 .contentBlock button:hover span {

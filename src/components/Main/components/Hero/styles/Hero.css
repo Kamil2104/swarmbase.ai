@@ -1,7 +1,7 @@
 .hero {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     background-color: #0F1427;
 
     height: 700px;

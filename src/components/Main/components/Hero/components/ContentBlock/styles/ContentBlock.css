@@ -1,12 +1,14 @@
 .contentBlock {
     display: flex;
     flex-direction: column;
-    gap: 1em;
-
-    padding-top: 6em;
+    gap: 2em;
 
     color: white;
 
     position: relative;
     z-index: 2;
+}
+
+.contentBlock p {
+    margin: 0;
 }

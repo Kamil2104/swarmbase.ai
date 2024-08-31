@@ -1,0 +1,224 @@
+@media screen and (max-width: 1400px) {
+    .hero {
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .hero {
+        height: 550px;
+        width: 750px;
+    }
+
+    .hero figure {
+        margin-top: 2em;
+        width: 750px;
+    }
+
+    .hero figure img {
+        width: 500px;
+    }
+
+    .contentBlock header h1 {
+        font-size: 3em;
+    }
+
+    .contentBlock p {
+        font-size: 1em;
+        width: 400px;
+    }
+
+    .contentBlock button {
+        width: 215px;
+        font-size: 1.25em;
+        margin-top: .75em;
+        transition: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .hero {
+        height: 425px;
+        width: 650px;
+
+        padding-left: 0em;
+    }
+
+    .hero figure {
+        width: 400px;
+    }
+
+    .hero figure img {
+        width: 400px;
+    }
+
+    .contentBlock header h1 {
+        font-size: 2.5em;
+    }
+
+    .contentBlock p {
+        font-size: .95em;
+        width: 350px;
+    }
+
+    .contentBlock button {
+        width: 190px;
+        font-size: 1.1em;
+        margin-top: .5em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .hero {
+        height: 425px;
+        width: 475px;
+    }
+
+    .hero figure {
+        width: 300px;
+        margin: 0em;
+    }
+
+    .hero figure img {
+        width: 300px;
+    }
+
+    .contentBlock header h1 {
+        font-size: 2em;
+    }
+
+    .contentBlock p {
+        font-size: .85em;
+        width: 300px;
+    }
+
+    .contentBlock button {
+        width: 170px;
+        font-size: 1em;
+        margin-top: 0em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero {
+        height: 300px;
+        width: 350px;
+    }
+
+    .hero figure {
+        width: 200px;
+    }
+
+    .hero figure img {
+        width: 200px;
+    }
+
+    .contentBlock {
+        gap: 1.5em;
+    }
+
+    .contentBlock header h1 {
+        font-size: 1.5em;
+    }
+
+    .contentBlock p {
+        font-size: .7em;
+        width: 220px;
+    }
+
+    .contentBlock button {
+        width: 140px;
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .hero {
+        height: 275px;
+        width: 250px;
+    }
+
+    .hero figure {
+        width: 150px;
+    }
+
+    .hero figure img {
+        width: 150px;
+    }
+
+    .contentBlock {
+        gap: 1em;
+    }
+
+    .contentBlock header h1 {
+        font-size: 1.2em;
+    }
+
+    .contentBlock p {
+        font-size: .6em;
+        width: 150px;
+    }
+
+    .contentBlock button {
+        width: 120px;
+        font-size: .7em;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .hero {
+        height: 235px;
+        width: 200px;
+    }
+
+    .hero figure {
+        width: 120px;
+    }
+
+    .hero figure img {
+        width: 120px;
+    }
+
+    .contentBlock header h1 {
+        font-size: 1em;
+    }
+
+    .contentBlock p {
+        font-size: .5em;
+        width: 120px;
+    }
+
+    .contentBlock button {
+        width: 100px;
+        font-size: .6em;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .hero {
+        height: 220px;
+        width: 175px;
+    }
+
+    .hero figure {
+        width: 120px;
+    }
+
+    .hero figure img {
+        width: 120px;
+    }
+
+    .contentBlock header h1 {
+        font-size: 1em;
+    }
+
+    .contentBlock p {
+        font-size: .5em;
+        width: 120px;
+    }
+
+    .contentBlock button {
+        width: 100px;
+        font-size: .6em;
+    }
+}
