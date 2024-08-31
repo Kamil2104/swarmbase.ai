@@ -25,6 +25,10 @@
 @media screen and (max-width: 900px) {
     header.navbar {
         height: 185px;
+    }
+
+    .headerContent {
+        height: 185px;
 
         flex-direction: column;
         gap: 1em;
@@ -54,7 +58,8 @@
 }
 
 @media screen and (max-width: 600px) {
-    header.navbar {
+    header.navbar,
+    .headerContent {
         height: 185px;
     }
 
@@ -78,6 +83,10 @@
 
 @media screen and (max-width: 450px) {
     header.navbar {
+        height: auto;
+    }
+
+    .headerContent {
         justify-content: flex-start;
         align-items: center;
 

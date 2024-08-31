@@ -5,14 +5,4 @@ nav {
     align-items: center;
     gap: 2em;
     width: 900px;
-
-    animation: showMenu 1s ease-in;
-}
-
-@keyframes showMenu {
-    from {
-        opacity: 0;
-    } to {
-        opacity: 1;
-    }
 }

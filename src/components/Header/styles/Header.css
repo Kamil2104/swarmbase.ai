@@ -9,3 +9,23 @@ header.navbar {
 
     background-color: black;
 }
+
+.headerContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    animation: showHeader 1s ease-in;
+}
+
+@keyframes showHeader {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

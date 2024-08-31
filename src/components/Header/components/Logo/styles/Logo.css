@@ -1,8 +1,6 @@
 header figure {
     width: 350px;
     margin: 0;
-
-    animation: showLogo 1s ease-in;
 }
 
 header figure img {
@@ -11,12 +9,4 @@ header figure img {
 
 header figure img:hover {
   cursor: pointer;
-}
-
-@keyframes showLogo {
-    from {
-      opacity: 0;
-    } to {
-      opacity: 1;
-    }
 }
