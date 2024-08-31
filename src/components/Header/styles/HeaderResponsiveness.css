@@ -78,7 +78,12 @@
 
 @media screen and (max-width: 450px) {
     header.navbar {
-        height: 260px;
+        justify-content: flex-start;
+        align-items: center;
+
+        height: auto;
+
+        padding: 2em 0em 2em 0em;
     }
 
     nav {
@@ -91,10 +96,6 @@
 }
 
 @media screen and (max-width: 350px) {
-    header.navbar {
-        height: 240px;
-    }
-
     header figure {
         width: 250px;
     }
@@ -109,10 +110,6 @@
 }
 
 @media screen and (max-width: 300px) {
-    header.navbar {
-        height: 220px;
-    }
-
     header figure {
         width: 200px;
     }
