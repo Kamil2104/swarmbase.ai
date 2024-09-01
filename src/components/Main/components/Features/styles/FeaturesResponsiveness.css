@@ -39,6 +39,8 @@
 @media screen and (max-width: 900px) {
     .features {
         width: 650px;
+
+        padding-bottom: 1em;
     }
 
     .features h1 {

@@ -223,3 +223,99 @@
         font-size: .85em;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .innovation { /* Container */
+        min-width: 0px;
+        width: 300px;
+    }
+
+    .innovation .textContent { /* TextContent container */
+        width: 100%;
+    }
+
+    .innovation .textContent .imageContainer { /* Images container for mobile */
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .innovation .textContent .imageContainer img.robot,
+    .innovation .textContent .content .imageContainer img.robotsInSuits { /* Images for mobile */
+        box-shadow: 1px 1px 21px rgba(0, 166, 255, .5);
+        border-radius: .75em;
+    }
+
+    .innovation .textContent .imageContainer img.robot { /* Image 1 for mobile */
+        width: 250px;
+    }
+
+    .innovation .textContent .content .imageContainer img.robotsInSuits { /* Image 2 for mobile */
+        width: 175px;
+    }
+
+    .innovation .textContent .content p { /* Content */
+        width: 300px;
+
+        font-size: .85em;
+        text-align: center;
+
+        padding: 1em 0em;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .innovation { /* Container */
+        width: 250px;
+    }
+
+    .innovation .textContent h1 { /* Heading */
+        font-size: 1.75em;
+    }
+
+    .innovation .textContent .subheading { /* Subheading */
+        font-size: 1em;
+    }
+
+    .innovation .textContent .content p { /* Content */
+        width: 250px;
+
+        font-size: .85em;
+    }
+
+    .innovation .textContent .imageContainer img.robot { /* Image 1 for mobile */
+        width: 200px;
+    }
+
+    .innovation .textContent .content .imageContainer img.robotsInSuits { /* Image 2 for mobile */
+        width: 145px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .innovation { /* Container */
+        width: 220px;
+    }
+
+    .innovation .textContent h1 { /* Heading */
+        font-size: 1.5em;
+    }
+
+    .innovation .textContent .subheading { /* Subheading */
+        font-size: .95em;
+    }
+
+    .innovation .textContent .content p { /* Content */
+        width: 200px;
+
+        font-size: .8em;
+    }
+
+    .innovation .textContent .imageContainer img.robot { /* Image 1 for mobile */
+        width: 180px;
+    }
+
+    .innovation .textContent .content .imageContainer img.robotsInSuits { /* Image 2 for mobile */
+        width: 125px;
+    }
+}
