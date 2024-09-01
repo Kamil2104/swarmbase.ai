@@ -32,6 +32,8 @@ const Header = (props) => {
         <section className="headerContent">
           <Logo setMainContent={props.setMainContent} />
           <Menu
+            isMobile={isMobile}
+            setIsMenuVisible={setIsMenuVisible}
             setMainContent={props.setMainContent}
             mainContent={props.mainContent}
             className={isMenuVisible ? 'open' : ''}
