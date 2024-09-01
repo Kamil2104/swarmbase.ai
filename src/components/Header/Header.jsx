@@ -1,6 +1,8 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import PropTypes from "prop-types";
+
+import useIsMobile from "../../hooks/useIsMobile.js";
 
 import Logo from './components/Logo/Logo.jsx';
 import Menu from './components/Menu/Menu.jsx';
@@ -10,11 +12,19 @@ import './styles/Header.css';
 import './styles/HeaderResponsiveness.css';
 
 const Header = (props) => {
+  const isMobile = useIsMobile()
+
+  const [isVisible, setIsVisible] = useState(false);
   const [isMenuVisible, setIsMenuVisible] = useState(true);
 
   const toggleMenuVisibility = () => {
     setIsMenuVisible((prevVisibility) => !prevVisibility);
   };
+
+  useEffect(() => {
+    setIsVisible(isMobile);
+    setIsMenuVisible(!isMobile);
+  }, [isMobile]);
 
   return (
     <>
@@ -28,7 +38,7 @@ const Header = (props) => {
           />
         </section>
       </header>
-      <MenuHider isMenuVisible={isMenuVisible} setIsMenuVisible={setIsMenuVisible} hideMenu={toggleMenuVisibility} />
+      <MenuHider isMenuVisible={isMenuVisible} isVisible={isVisible} hideMenu={toggleMenuVisibility} />
     </>
   );
 };
