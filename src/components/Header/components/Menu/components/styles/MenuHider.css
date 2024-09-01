@@ -6,13 +6,15 @@
 
     color: aliceblue;
     cursor: pointer;
+
+    height: 15px;
 }
 
 .hider .arrowIcon {
     padding: 1em 1em .5em 1em;
 
-    border-radius: 50%;
+    border-radius: 60%;
     background-color: black;
 
-    transform: translateY(-80%);
+    transform: translateY(-40%);
 }
