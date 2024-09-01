@@ -6,6 +6,7 @@ import Icon2 from './icons/Icon2.jpg'
 import Icon3 from './icons/Icon3.jpg'
 
 import './styles/Features.css';
+import './styles/FeaturesResponsiveness.css';
 
 const Features = () => {
   return (

@@ -1,0 +1,184 @@
+@media screen and (max-width: 1400px) {
+    .features {
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .features {
+        width: 750px;
+
+        gap: 3em;
+    }
+
+    .features h1 {
+        font-size: 3em;
+    }
+
+    .features .featuresContainer {
+        justify-content: space-between;
+    }
+
+    .features .featuresContainer .feature .icon {
+        width: 100px;
+    }
+
+    .features .featuresContainer .feature h2 {
+        font-size: 1.25em;
+    }
+
+    .features .featuresContainer .feature h3 {
+        font-size: 1.1em;
+    }
+
+    .features .informationContainer p {
+        font-size: .9em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .features {
+        width: 650px;
+    }
+
+    .features h1 {
+        font-size: 2.5em;
+    }
+
+    .features .featuresContainer .feature .icon {
+        width: 90px;
+    }
+
+    .features .featuresContainer .feature h2 {
+        font-size: 1.1em;
+    }
+
+    .features .featuresContainer .feature h3 {
+        font-size: 1em;
+    }
+
+    .features .informationContainer p {
+        font-size: .85em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .features {
+        min-width: 380px;
+        width: 80%;
+    }
+
+    .features .featuresContainer .feature .icon {
+        width: 80px;
+    }
+
+    .features .featuresContainer .feature h2 {
+        font-size: .8em;
+        text-align: center;
+    }
+
+    .features .featuresContainer .feature h3 {
+        font-size: .7em;
+    }
+
+    .features .informationContainer p {
+        font-size: .75em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .features h1 {
+        font-size: 2.25em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    main {
+        gap: 2em;
+    }
+
+    .features {
+        min-width: 0px;
+        width: 300px;
+
+        gap: 2em;
+    }
+
+    .features .featuresContainer {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .features .featuresContainer .feature {
+        width: 100%;
+    }
+
+    .features .featuresContainer .feature .icon {
+        width: 100px;
+    }
+
+    .features .featuresContainer .feature h2 {
+        font-size: 1.1em;
+        text-align: center;
+    }
+
+    .features .featuresContainer .feature h3 {
+        font-size: 1em;
+    }
+
+    .features .informationContainer p {
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .features {
+        width: 250px;
+    }
+
+    .features h1 {
+        font-size: 1.75em;
+    }
+
+    .features .featuresContainer .feature .icon {
+        width: 80px;
+    }
+
+    .features .featuresContainer .feature h2 {
+        font-size: 1em;
+    }
+
+    .features .featuresContainer .feature h3 {
+        font-size: .9em;
+    }
+
+    .features .informationContainer p {
+        font-size: .7em;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .features {
+        width: 220px;
+    }
+
+    .features h1 {
+        font-size: 1.5em;
+    }
+
+    .features .featuresContainer .feature .icon {
+        width: 60px;
+    }
+
+    .features .featuresContainer .feature h2 {
+        font-size: .9em;
+    }
+
+    .features .featuresContainer .feature h3 {
+        font-size: .8em;
+    }
+
+    .features .informationContainer p {
+        font-size: .6em;
+    }
+}
