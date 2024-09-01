@@ -2,6 +2,7 @@ import TextContent from './components/TextContent/TextContent'
 import ImageContent from './components/ImageContent/ImageContent'
 
 import './styles/Innovation.css'
+import './styles/InnovationResponsiveness.css'
 
 const Innovation = () => {
   return (
