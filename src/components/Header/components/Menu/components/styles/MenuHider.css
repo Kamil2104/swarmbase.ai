@@ -1,5 +1,18 @@
-header .hider {
-    color: white;
+.hider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
+    color: aliceblue;
     cursor: pointer;
+}
+
+.hider .arrowIcon {
+    padding: 1em 1em .5em 1em;
+
+    border-radius: 50%;
+    background-color: black;
+
+    transform: translateY(-80%);
 }

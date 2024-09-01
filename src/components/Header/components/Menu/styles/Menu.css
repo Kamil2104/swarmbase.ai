@@ -6,3 +6,25 @@ nav {
     gap: 2em;
     width: 900px;
 }
+
+@media (max-width: 450px) {
+    nav {
+        display: none;
+    }
+
+    nav.open {
+        display: flex;
+        animation: slideDown 0.5s forwards;
+    }
+}
+
+@keyframes slideDown {
+    from {
+        max-height: 0;
+        opacity: 0;
+    }
+    to {
+        max-height: 500px;
+        opacity: 1;
+    }
+}

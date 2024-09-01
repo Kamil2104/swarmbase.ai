@@ -12,8 +12,9 @@ const MenuHider = ({isMenuVisible, setIsMenuVisible, hideMenu}) => {
 
   useEffect(() => {
     const checkScreenWidth = () => {
-      setIsVisible(window.innerWidth <= 450);
-      setIsMenuVisible(window.innerWidth > 450);
+      const isMobile = window.innerWidth <= 450;
+      setIsVisible(isMobile);
+      setIsMenuVisible(!isMobile); // Domyślnie ukryj menu na urządzeniach mobilnych
     };
 
     checkScreenWidth();
@@ -29,7 +30,7 @@ const MenuHider = ({isMenuVisible, setIsMenuVisible, hideMenu}) => {
 
   return (
     <section className="hider" onClick={hideMenu}>
-        <FontAwesomeIcon icon={isMenuVisible ? faAngleUp : faAngleDown} />
+        <FontAwesomeIcon icon={isMenuVisible ? faAngleUp : faAngleDown} className='arrowIcon'/>
     </section>
   )
 };

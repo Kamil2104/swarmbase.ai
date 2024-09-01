@@ -17,18 +17,19 @@ const Header = (props) => {
   };
 
   return (
-    <header className='navbar'>
-      <section className="headerContent">
-        <Logo setMainContent={props.setMainContent} />
-        {isMenuVisible && (
+    <>
+      <header className='navbar'>
+        <section className="headerContent">
+          <Logo setMainContent={props.setMainContent} />
           <Menu
             setMainContent={props.setMainContent}
             mainContent={props.mainContent}
+            className={isMenuVisible ? 'open' : ''}
           />
-        )}
-        <MenuHider isMenuVisible={isMenuVisible} setIsMenuVisible={setIsMenuVisible} hideMenu={toggleMenuVisibility} />
-      </section>
-    </header>
+        </section>
+      </header>
+      <MenuHider isMenuVisible={isMenuVisible} setIsMenuVisible={setIsMenuVisible} hideMenu={toggleMenuVisibility} />
+    </>
   );
 };
 
