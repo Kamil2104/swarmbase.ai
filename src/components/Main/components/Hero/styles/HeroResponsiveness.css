@@ -2,6 +2,14 @@
     .hero {
         width: 1000px;
     }
+
+    .cards {
+        gap: 0em;
+    }
+
+    .card {
+        width: 40%;
+    }
 }
 
 @media screen and (max-width: 1150px) {

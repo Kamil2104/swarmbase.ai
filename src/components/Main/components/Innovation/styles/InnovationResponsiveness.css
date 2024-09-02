@@ -228,6 +228,8 @@
     .innovation { /* Container */
         min-width: 0px;
         width: 300px;
+
+        padding-bottom: 0em;
     }
 
     .innovation .textContent { /* TextContent container */

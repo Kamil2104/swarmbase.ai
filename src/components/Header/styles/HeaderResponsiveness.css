@@ -84,7 +84,19 @@
 @media screen and (max-width: 450px) {
     header.navbar {
         height: auto;
+
+        /* background-color: transparent; */
     }
+
+    /* .hider .arrowIcon {
+        background-color: transparent;
+    }
+
+    nav button {
+        background-color: transparent;
+
+        border: .1em solid transparent;
+    } */
 
     .headerContent {
         justify-content: flex-start;

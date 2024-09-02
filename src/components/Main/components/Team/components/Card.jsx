@@ -13,10 +13,7 @@ const Card = (props) => {
         <Photo photo={props.photo} name={props.name}/>
         <section className='row'>
           <Name name={props.name}/>
-          {props.linkedin === "none"
-            ? <></>
-            : <LinkedIn linkedin={props.linkedin}/>
-          }
+          <LinkedIn linkedin={props.linkedin}/>
         </section>
         <Occupation occupation={props.occupation}/>
     </section>

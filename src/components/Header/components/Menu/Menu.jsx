@@ -30,7 +30,7 @@ const Menu = ({ isMobile, setIsMenuVisible, setMainContent, mainContent, classNa
   };
 
   const closeMenu = () => {
-    setIsMenuVisible(false);
+      setIsMenuVisible(false);
   }
 
   return (

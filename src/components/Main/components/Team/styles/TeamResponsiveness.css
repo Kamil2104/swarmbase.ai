@@ -1,0 +1,277 @@
+@media screen and (max-width: 1400px) {
+    .team {
+        width: 1000px;
+    }
+
+    .team .cards {
+        gap: 3.75em;
+    }
+
+    .team .cards .card {
+        height: 400px;
+        width: 28%;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .team {
+        width: 750px;
+    }
+
+    .team h1 {
+        font-size: 3em;
+
+        padding-bottom: 1em;
+    }
+
+    .team .cards .card {
+        height: 320px;
+    }
+
+    .team .cards .card .row .name p {
+        font-size: 1.1em;
+    }
+
+    .team .cards .card .row .linkedin a img {
+        width: 24px;
+    }
+
+    .team .cards .card .occupation {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .team {
+        width: 650px;
+    }
+
+    .team h1 {
+        font-size: 2.5em;
+    }
+
+    .team .cards {
+        gap: 5em;
+    }
+
+    .team .cards .card {
+        height: 260px;
+        width: 25%;
+        min-width: 162.5px;
+
+        gap: 0em;
+    }
+
+    .team .cards .card .row {
+        gap: .5em;
+    }
+
+    .team .cards .card .row .name p {
+        font-size: .9em;
+    }
+
+    .team .cards .card .row .linkedin a img {
+        width: 20px;
+    }
+
+    .team .cards .card .occupation {
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .team {
+        width: 80%;
+        min-width: 380px;
+    }
+
+    .team .cards {
+        gap: 3em;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .team .cards .card {
+        height: 325px;
+        width: 225px;
+        min-width: 0px;
+    }
+
+    .team .cards .card:nth-child(1),
+    .team .cards .card:nth-child(2){
+        margin-bottom: 0;
+    }
+
+    .team .cards .card .row {
+        gap: 1em;
+
+        padding-bottom: .5em;
+    }
+
+    .team .cards .card .row .name p {
+        font-size: 1.1em;
+    }
+
+    .team .cards .card .row .linkedin a img {
+        width: 24px;
+    }
+
+    .team .cards .card .occupation {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .team .cards .card {
+        height: 290px;
+        width: 200px;
+    }
+
+    .team .cards .card .row {
+        gap: .75em;
+
+        padding-bottom: .25em;
+    }
+
+    .team .cards .card .row .name p {
+        font-size: 1em;
+    }
+
+    .team .cards .card .row .linkedin a img {
+        width: 22px;
+    }
+
+    .team .cards .card .occupation {
+        font-size: .95em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .team {
+        gap: 1em;
+    }
+
+    .team h1 {
+        font-size: 2.25em;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .team .cards .card {
+        height: 270px;
+        width: 175px;
+    }
+
+    .team .cards .card .row {
+        gap: .75em;
+
+        padding-bottom: .25em;
+    }
+
+    .team .cards .card .row .name p {
+        font-size: .95em;
+    }
+
+    .team .cards .card .row .linkedin a img {
+        width: 20px;
+    }
+
+    .team .cards .card .occupation {
+        font-size: .85em;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    .team {
+        width: 300px;
+        min-width: 0px;
+    }
+
+    .team .cards {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .team .cards .card {
+        height: 320px;
+        width: 225px;
+    }
+
+    .team .cards .card .row {
+        gap: 1em;
+    }
+
+    .team .cards .card .row .name p {
+        font-size: 1.1em;
+    }
+
+    .team .cards .card .row .linkedin a img {
+        width: 24px;
+    }
+
+    .team .cards .card .occupation {
+        font-size: .9em;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .team {
+        width: 250px;
+    }
+
+    .team h1 {
+        font-size: 1.75em;
+    }
+
+    .team .cards .card {
+        height: 300px;
+        width: 200px;
+    }
+
+    .team .cards .card .row {
+        gap: .75em;
+    }
+
+    .team .cards .card .row .name p {
+        font-size: 1em;
+    }
+
+    .team .cards .card .row .linkedin a img {
+        width: 22px;
+    }
+
+    .team .cards .card .occupation {
+        font-size: .85em;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .team {
+        width: 220px;
+    }
+
+    .team h1 {
+        font-size: 1.5em;
+    }
+
+    .team .cards .card {
+        height: 280px;
+        width: 180px;
+    }
+
+    .team .cards .card .row {
+        gap: .5em;
+    }
+
+    .team .cards .card .row .name p {
+        font-size: .95em;
+    }
+
+    .team .cards .card .row .linkedin a img {
+        width: 21px;
+    }
+
+    .team .cards .card .occupation {
+        font-size: .8em;
+    }
+}
