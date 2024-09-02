@@ -30,7 +30,7 @@ const Header = (props) => {
     <>
       <header className='navbar'>
         <section className="headerContent">
-          <Logo setMainContent={props.setMainContent} />
+          <Logo setMainContent={props.setMainContent} isMobile={isMobile}/>
           <Menu
             isMobile={isMobile}
             setIsMenuVisible={setIsMenuVisible}

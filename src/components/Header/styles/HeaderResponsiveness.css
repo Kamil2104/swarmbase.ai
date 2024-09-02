@@ -85,10 +85,10 @@
     header.navbar {
         height: auto;
 
-        /* background-color: transparent; */
+        background-color: transparent;
     }
 
-    /* .hider .arrowIcon {
+    .hider .arrowIcon {
         background-color: transparent;
     }
 
@@ -96,7 +96,7 @@
         background-color: transparent;
 
         border: .1em solid transparent;
-    } */
+    }
 
     .headerContent {
         justify-content: flex-start;
