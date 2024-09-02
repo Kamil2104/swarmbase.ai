@@ -1,19 +1,21 @@
 import { useState, useEffect } from 'react';
 
 function useIsMobile() {
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 450);
+  const [isMobile, setIsMobile] = useState(window.matchMedia("(max-width: 450px)").matches);
 
   useEffect(() => {
-    const checkScreenWidth = () => {
-      setIsMobile(window.innerWidth <= 450);
+    const mediaQuery = window.matchMedia("(max-width: 450px)");
+
+    const handleMediaQueryChange = (e) => {
+      setIsMobile(e.matches);
     };
 
-    checkScreenWidth();
+    setIsMobile(mediaQuery.matches);
 
-    window.addEventListener('resize', checkScreenWidth);
+    mediaQuery.addEventListener('change', handleMediaQueryChange);
 
     return () => {
-      window.removeEventListener('resize', checkScreenWidth);
+      mediaQuery.removeEventListener('change', handleMediaQueryChange);
     };
   }, []);
 
