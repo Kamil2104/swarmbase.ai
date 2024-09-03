@@ -4,6 +4,7 @@ import TextContent from './components/TextContent/TextContent';
 import Form from './components/Form/Form';
 
 import './styles/Waitlist.css';
+import './styles/WaitlistResponsiveness.css';
 
 const Waitlist = (props) => {
   return (

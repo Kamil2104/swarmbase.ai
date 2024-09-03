@@ -189,6 +189,8 @@
     .team {
         width: 300px;
         min-width: 0px;
+
+        padding-bottom: 0em;
     }
 
     .team .cards {

@@ -10,9 +10,7 @@ const Agreement = (props) => {
       <section className='row'>
         <input type="checkbox" id='agreementAcceptation' value={props.agreement} onChange={() => props.onChangeHandler(!props.agreement)}/>
         <section className='text'>
-          <label className='agreementAcceptation'> By signing up, you agree to </label>
-          <p onClick={() => props.setMainContent('Privacy Policy & cookies')}> our privacy policy and cookies policy </p>
-          <span> * </span>
+          <label className='agreementAcceptation' htmlFor='agreementAcceptation'> By signing up, you agree to <span onClick={() => props.setMainContent('Privacy Policy & cookies')} className='spanAgreement'> our privacy policy and cookies policy <span className='star'> * </span> </span> </label>
         </section>
       </section>
       <section className='error'>

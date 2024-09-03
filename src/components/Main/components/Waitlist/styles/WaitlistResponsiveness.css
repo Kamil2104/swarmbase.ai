@@ -1,0 +1,316 @@
+@media screen and (max-width: 1400px) {
+    .waitlist {
+        width: 1000px;
+    }
+
+    form {
+        width: 625px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .waitlist {
+        width: 750px;
+    }
+
+    .waitlist .textContent h1 {
+        font-size: 3.5em;
+    }
+
+    .waitlist .textContent h3 {
+        font-size: 2.25em;
+    }
+
+    .waitlist .textContent p {
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .waitlist {
+        width: 650px;
+    }
+
+    form {
+        width: 500px;
+    }
+
+    form .row .inputGroup input {
+        width: calc(195px - 1.2em);
+    }
+
+    form .agreement .row .text label.agreementAcceptation {
+        font-size: .8em;
+    }
+
+    form .userData .agreement .error .errorLabel {
+        font-size: .9em;
+    }
+
+    form button {
+        font-size: .95em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .waitlist {
+        width: 80%;
+        min-width: 380px;
+    }
+
+    .waitlist .textContent h1 {
+        font-size: 2.75em;
+    }
+
+    .waitlist .textContent h3 {
+        font-size: 1.75em;
+    }
+
+    .waitlist .textContent .divider {
+        width: 230px;
+    }
+
+    .waitlist .textContent p {
+        font-size: 1em;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    form {
+        width: 350px;
+    }
+
+    form h3 {
+        font-size: 2em;
+    }
+
+    form .userData .row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        gap: 2em;
+    }
+
+    form .row .inputGroup,
+    form .row2 .inputGroup {
+        width: 80%;
+    }
+
+    form .row .inputGroup label,
+    form .row2 .inputGroup label {
+        font-size: .9em;
+    }
+
+    form .row .inputGroup input,
+    form .inputGroup input[type="email"] {
+        width: calc(100% - 1em);
+
+        font-size: 1em;
+    }
+
+    form .errorLabel {
+        font-size: .9em;
+    }
+
+    form .userData .agreement .row {
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        width: 90%;
+    }
+
+    form .userData .agreement .row input {
+        margin-top: .2em;
+    }
+
+    form .userData .agreement .error .errorLabel {
+        margin-left: 2em;
+    }
+
+    form button {
+        font-size: .8em;
+        padding: 0.75em 1em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .waitlist .textContent h1 {
+        font-size: 2.5em;
+    }
+
+    .waitlist .textContent h3 {
+        font-size: 1.5em;
+    }
+
+    .waitlist .textContent .divider {
+        width: 200px;
+    }
+
+    .waitlist .textContent p {
+        font-size: .9em;
+        width: 80%;
+    }
+
+    form h3 {
+        margin-bottom: 0em;
+    }
+
+    form .userData .agreement .row {
+        justify-content: center;
+        align-items: center;
+    }
+
+    form .userData .agreement .row input {
+        margin-top: 0em;
+        margin-bottom: 1.35em;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    .waitlist {
+        padding-bottom: 0em;
+
+        gap: 0em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .waitlist {
+        width: 300px;
+        min-width: 0px;
+    }
+
+    .waitlist .textContent h1 {
+        font-size: 2.25em;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    form h3 {
+        font-size: 1.5em;
+    }
+
+    form .userData .agreement .row {
+        width: 95%;
+    }
+
+    form .row .inputGroup label,
+    form .row2 .inputGroup label {
+        font-size: .8em;
+    }
+
+    form .row .inputGroup input,
+    form .inputGroup input[type="email"] {
+        font-size: .9em;
+    }
+
+    form .errorLabel {
+        font-size: .8em;
+    }
+
+    form .agreement .row .text label.agreementAcceptation,
+    form .userData .agreement .error .errorLabel {
+        font-size: .75em;
+    }
+
+    form button {
+        font-size: .75em;
+        padding: 0.75em 1em;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .waitlist {
+        width: 250px;
+
+        gap: .75em;
+    }
+
+    .waitlist .textContent h1 {
+        font-size: 2em;
+    }
+
+    .waitlist .textContent h3 {
+        font-size: 1.25em;
+    }
+
+    .waitlist .textContent .divider {
+        width: 150px;
+    }
+
+    .waitlist .textContent p {
+        font-size: .8em;
+    }
+
+    form .agreement .row .text label.agreementAcceptation {
+        font-size: .7em;
+    }
+
+    form .userData .agreement .row input {
+        margin-bottom: 2.25em;
+    }
+
+    form button {
+        font-size: .75em;
+        padding: 0.75em 1em;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .waitlist {
+        width: 220px;
+    }
+
+    .waitlist .textContent h1 {
+        font-size: 1.75em;
+    }
+
+    .waitlist .textContent h3 {
+        font-size: 1.2em;
+    }
+
+    .waitlist .textContent .divider {
+        width: 120px;
+    }
+
+    .waitlist .textContent p {
+        font-size: .8em;
+    }
+
+    form .userData {
+        gap: 1em;
+    }
+
+    form .userData .row {
+        gap: 1em;
+    }
+
+    form .userData .agreement .row input {
+        margin-bottom: 1.9em;
+    }
+
+    form .agreement .row .text label.agreementAcceptation {
+        font-size: .6em;
+    }
+
+    form .userData .agreement .row {
+        margin-top: .5em;
+    }
+
+    form .userData .agreement .error .errorLabel {
+        font-size: .7em;
+    }
+
+    form .errorLabel {
+        font-size: .725em;
+    }
+
+    form button {
+        font-size: .7em;
+        padding: 0.75em 1em;
+    }
+}

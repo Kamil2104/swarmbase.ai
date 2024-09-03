@@ -13,13 +13,13 @@ form .userData .agreement .row {
     gap: .5em;
 }
 
-form .userData .agreement .row .text {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: .2em;
-}
+    form .userData .agreement .row .text {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: .2em;
+    }
 
 form .userData .agreement .error {
     display: flex;
@@ -30,28 +30,29 @@ form .userData .agreement .error {
 }
 
 form .userData .agreement label.agreementAcceptation {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: .5em;
+    display: inline;
 
     font-size: .9em;
     color: rgba(255, 255, 255, 0.742);
 }
 
-form .userData .agreement .row .text p {
-    font-size: .9em;
+form .userData .agreement .row .text label.agreementAcceptation span.spanAgreement {
+    display: inline;
+
+    font-size: 1em;
     color: rgb(0, 136, 255);
 
     margin: 0;
+    padding-left: .05em;
+
     cursor: pointer;
 }
 
-form .userData .agreement .row .text p:hover {
+form .userData .agreement .row .text span.spanAgreement:hover {
     text-decoration: underline;
 }
 
-form .userData .agreement .row .text span {
+form .userData .agreement .row .text span.star {
     font-size: 1.1em;
     color: #ff204e;
 }
