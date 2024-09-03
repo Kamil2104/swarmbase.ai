@@ -4,6 +4,7 @@ import Contact from './components/Contact/Contact'
 import Statue from './components/Statue/Statue'
 
 import './styles/Footer.css'
+import './styles/FooterResponsiveness.css'
 
 const Footer = (props) => {
   return (

@@ -138,6 +138,10 @@
     .contentBlock {
         gap: 1.5em;
     }
+
+    .contentBlock p {
+        margin-bottom: 1em;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -146,7 +150,7 @@
     }
 
     .contentBlock p {
-        font-size: .9em;
+        font-size: 1em;
         width: 250px;
     }
 
@@ -171,7 +175,7 @@
     }
 
     .contentBlock p {
-        font-size: .9em;
+        font-size: 1em;
         width: 180px;
     }
 }
@@ -191,7 +195,7 @@
     }
 
     .contentBlock p {
-        font-size: .8em;
+        font-size: .9em;
         width: 180px;
     }
 

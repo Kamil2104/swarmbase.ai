@@ -1,0 +1,287 @@
+@media screen and (max-width: 1400px) {
+    footer {
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    footer {
+        width: 750px;
+    }
+
+    footer .contact h1 {
+        font-size: 3em;
+    }
+
+    footer .contactOption {
+        width: 355px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    footer {
+        width: 650px;
+    }
+
+    footer .contact h1 {
+        font-size: 2.5em;
+        margin-bottom: .25em;
+    }
+
+    footer .contactOption {
+        height: 150px;
+        width: 305px;
+    }
+
+    footer .contactOption .col {
+        height: 150px;
+    }
+
+    footer .contactOption .icon {
+        width: 25%;
+    }
+
+    footer .contactOption:last-child .icon {
+        padding-right: 1em;
+    }
+
+    .contactOption:first-child img {
+        height: 45px;
+    }
+
+    .contactOption:last-child img {
+        height: 60px;
+    }
+
+    .contactOption .col p.mainText {
+        font-size: 1.1em;
+    }
+
+    .contactOption .col p.secondaryText {
+        font-size: .9em;
+
+        margin-bottom: .5em;
+    }
+
+    .contactOption .col p.link,
+    .contactOption .col a {
+        font-size: .8em;
+    }
+
+    .statue p {
+        font-size: .9em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    footer {
+        width: 80%;
+        min-width: 380px;
+    }
+
+    footer .contactOption {
+        height: 110px;
+        width: 235px;
+    }
+
+    footer .contactOption .icon {
+        padding-left: 0em;
+    }
+
+    footer .contactOption:first-child .icon,
+    footer .contactOption:last-child .icon {
+        padding-right: 0em;
+    }
+
+    footer .contactOption .col {
+        height: 110px;
+    }
+
+    .contactOption:first-child img {
+        height: 35px;
+    }
+
+    .contactOption:last-child img {
+        height: 45px;
+    }
+
+    .contactOption .col p.mainText {
+        font-size: .95em;
+    }
+
+    .contactOption .col p.secondaryText {
+        font-size: .8em;
+
+        margin-bottom: .5em;
+    }
+
+    .contactOption .col p.link,
+    .contactOption .col a {
+        font-size: .75em;
+    }
+
+    .statue p {
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    footer .contact h1 {
+        margin-bottom: .5em;
+    }
+
+    footer .contact .options {
+        gap: 0em;
+    }
+
+    footer .contactOption {
+        flex-direction: column;
+        gap: 0em;
+
+        height: 140px;
+        width: 230px;
+
+        margin-bottom: 1.5em;
+    }
+
+    .contactOption:first-child img {
+        height: 35px;
+    }
+
+    .contactOption:last-child img {
+        height: 45px;
+    }
+
+    footer .contactOption .col {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .statue p {
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    footer {
+        width: 300px;
+        min-width: 0px;
+    }
+
+    footer .contact h1 {
+        font-size: 2.25em;
+
+        margin-bottom: 1em;
+    }
+
+    footer .contact {
+        width: 100%;
+    }
+
+    footer .contact .options {
+        flex-direction: column;
+
+        height: auto;
+        width: 100%;
+        gap: 1em;
+    }
+
+    footer .contactOption {
+        width: 100%;
+    }
+
+    footer .contactOption .col {
+        height: auto;
+    }
+
+    .contactOption:first-child img {
+        height: 40px;
+    }
+
+    .contactOption:last-child img {
+        height: 50px;
+    }
+
+    .contactOption .col p.mainText {
+        font-size: 1.1em;
+    }
+
+    .contactOption .col p.secondaryText {
+        font-size: .9em;
+
+        margin-bottom: .5em;
+    }
+
+    .contactOption .col p.link,
+    .contactOption .col a {
+        font-size: .85em;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    footer {
+        width: 250px;
+    }
+
+    footer .contact h1 {
+        font-size: 1.75em;
+    }
+
+    .contactOption:first-child img {
+        height: 30px;
+    }
+
+    .contactOption:last-child img {
+        height: 40px;
+    }
+
+    .contactOption .col p.mainText {
+        font-size: 1em;
+    }
+
+    .contactOption .col p.secondaryText {
+        font-size: .85em;
+    }
+
+    .contactOption .col p.link,
+    .contactOption .col a {
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    footer {
+        width: 220px;
+    }
+
+    footer .contact h1 {
+        font-size: 1.5em;
+
+        margin-bottom: .75em;
+    }
+
+    footer .contact .options {
+        gap: 0em;
+    }
+
+    .contactOption:first-child img {
+        height: 30px;
+    }
+
+    .contactOption:last-child img {
+        height: 40px;
+    }
+
+    .contactOption .col p.mainText {
+        font-size: .95em;
+    }
+
+    .contactOption .col p.secondaryText {
+        font-size: .75em;
+    }
+
+    .contactOption .col p.link,
+    .contactOption .col a {
+        font-size: .75em;
+    }
+}
