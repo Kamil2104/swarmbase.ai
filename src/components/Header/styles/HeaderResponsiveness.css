@@ -52,6 +52,10 @@
         padding-top: 1.5em
     }
 
+    nav button:hover::after {
+        transform: scaleX(0);
+    }
+
     nav button {
         font-size: 1em;
     }

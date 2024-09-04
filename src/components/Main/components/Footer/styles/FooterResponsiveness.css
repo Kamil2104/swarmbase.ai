@@ -71,6 +71,10 @@
     .statue p {
         font-size: .9em;
     }
+
+    .statue p:hover {
+        text-decoration: none;
+    }
 }
 
 @media screen and (max-width: 800px) {
