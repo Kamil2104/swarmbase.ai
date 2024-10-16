@@ -31,6 +31,12 @@
         font-size: 3em;
     }
 
+    .contentBlock .joinedCommunicate {
+      font-size: 1.5em;
+    }
+    
+    
+
     .contentBlock p {
         font-size: 1em;
         width: 400px;
