@@ -1,8 +1,24 @@
 .contentBlock .joinedCommunicate {
-  width: 100%;
-  padding-left: .25em;
 
-  color: rgb(255, 0, 136);
+  color: rgba(71, 193, 44, 0.8);
   font-size: 2em;
+
+
+  font-size: 1.45em;
+  font-weight: 600;
+  background: linear-gradient(145deg, rgba(71, 193, 44, 0.2), rgba(71, 193, 44, 0.2));
+  border: 2px solid rgba(71, 193, 44, 0.8);
+  border-radius: 0.5em;
+  box-shadow: 0 0 15px rgba(71, 193, 44, 0.2), 0 0 25px rgba(71, 193, 44, 0.2) inset;
+  position: relative;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  overflow: hidden;
 }
 
+@media (max-width: 500px) {
+  .joinedCommunicate {
+
+    font-size: 1.2em;
+
+  }
+}
