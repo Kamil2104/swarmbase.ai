@@ -1,7 +1,7 @@
 import Header from './components/Header';
 import Text from './components/Text';
 import JoinedCommunicate from './components/JoinedCommunicate';
-import { SignedIn, SignedOut, SignInButton } from '@clerk/clerk-react'
+import { SignedIn, SignedOut, SignUpButton } from '@clerk/clerk-react'
 
 import './styles/ContentBlock.css';
 
@@ -11,7 +11,7 @@ const ContentBlock = () => {
             <Header />
             <Text />
         <SignedOut>
-          <SignInButton />
+          <SignUpButton />
         </SignedOut>
         <SignedIn>
           <JoinedCommunicate />

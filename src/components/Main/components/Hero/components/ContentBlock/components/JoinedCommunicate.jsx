@@ -3,7 +3,7 @@ import './styles/JoinedCommunicate.css'
 const JoinedCommunicate = () =>
 {
   return (
-    <p className="joinedCommunicate"><strong>Thanks for joining our waitlist</strong></p>
+    <p className="joinedCommunicate"><strong>Thanks for registering! :)</strong></p>
   )
 }
 
