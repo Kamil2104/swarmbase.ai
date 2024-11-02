@@ -49,6 +49,8 @@ const Form = (props) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setExpired(false)
+    setVerified(false)
 
     if (isFormCorectlyCompleted(firstName, setFirstNameErrorMessage, lastName, setLastNameErrorMessage, email, setEmailErrorMessage, agreement, setAgreementErrorMessage)) {
       if (!isLoaded) return;
@@ -57,18 +59,15 @@ const Form = (props) => {
         // Initiate the signup process with Clerk
         await signUp.create({ emailAddress: email });
 
+        setStatus("A verification link has been sent to your email. Please check your inbox.");
 
         // Start the email link flow
         const { startEmailLinkFlow } = signUp.createEmailLinkFlow();
-
         const su = await startEmailLinkFlow({
           redirectUrl: "https://localhost:5173/verification",
         });
 
-        console.log(su);
-
         const verification = su.verifications.emailAddress;
-
 
         if (verification.verifiedFromTheSameClient()) {
           setVerified(true);
@@ -76,15 +75,20 @@ const Form = (props) => {
         } else if (verification.status === "expired") {
           setExpired(true);
           setStatus("Verification link expired. Please try again.");
-        } else {
-          setStatus("A verification link has been sent to your email. Please check your inbox.");
-          console.log("Current status:", status);
         }
       } catch (err) {
         setError("Error: " + err.message);
       }
     }
   };
+
+  const getStatusColor = () =>
+  {
+    if (error) return "red";
+    if (verified) return "green";
+    if (expired) return "orange";
+    return "white";
+  }
 
   return (
     <form onSubmit={handleSubmit}>
@@ -101,10 +105,11 @@ const Form = (props) => {
       </section>
       <Button handleSubmit={handleSubmit}/>
 
-      {status && <p>{status}</p>}
-      {error && <p style={{ color: "red" }}>{error}</p>}
-      {verified && <p style={{ color: "green" }}>Email verified successfully!</p>}
-      {expired && <p style={{ color: "orange" }}>Verification link expired. Please try again.</p>}
+      {(status || error) && (
+        <p style={{ color: getStatusColor() }}>
+          {status ? status : error}
+        </p>)}
+
     </form>
   );
 };
