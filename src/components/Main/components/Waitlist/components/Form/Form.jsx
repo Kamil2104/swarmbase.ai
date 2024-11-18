@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
-import { useSignUp } from "@clerk/clerk-react";
 
 import Heading from './components/Heading';
 import Input from './components/Input';
@@ -9,6 +8,9 @@ import Button from './components/Button';
 import { isFormCorectlyCompleted } from './validation/validateForm';
 
 import './styles/Form.css';
+
+import { useSignUp } from "@clerk/clerk-react";
+
 
 const Form = (props) => {
   const { signUp, isLoaded } = useSignUp();
@@ -51,6 +53,7 @@ const Form = (props) => {
     e.preventDefault();
     setExpired(false)
     setVerified(false)
+    setError(null);
 
     if (isFormCorectlyCompleted(firstName, setFirstNameErrorMessage, lastName, setLastNameErrorMessage, email, setEmailErrorMessage, agreement, setAgreementErrorMessage)) {
       if (!isLoaded) return;
@@ -64,7 +67,7 @@ const Form = (props) => {
         // Start the email link flow
         const { startEmailLinkFlow } = signUp.createEmailLinkFlow();
         const su = await startEmailLinkFlow({
-          redirectUrl: "https://localhost:5173/verification",
+          redirectUrl: "http://localhost:5173/verified",
         });
 
         const verification = su.verifications.emailAddress;
@@ -76,8 +79,11 @@ const Form = (props) => {
           setExpired(true);
           setStatus("Verification link expired. Please try again.");
         }
-      } catch (err) {
-        setError("Error: " + err.message);
+      } catch (err)
+      {
+        const errorMessage = err.errors?.[0]?.longMessage || err.errors?.[0]?.message || "An unknown error occurred";
+
+        setError("Error: " + errorMessage);
       }
     }
   };
