@@ -51,9 +51,10 @@ const Form = (props) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setStatus(null);
+    setError(null);
     setExpired(false)
     setVerified(false)
-    setError(null);
 
     if (isFormCorectlyCompleted(firstName, setFirstNameErrorMessage, lastName, setLastNameErrorMessage, email, setEmailErrorMessage, agreement, setAgreementErrorMessage)) {
       if (!isLoaded) return;
@@ -81,7 +82,12 @@ const Form = (props) => {
         }
       } catch (err)
       {
-        const errorMessage = err.errors?.[0]?.longMessage || err.errors?.[0]?.message || "An unknown error occurred";
+        let errorMessage = err.errors?.[0]?.longMessage || err.errors?.[0]?.message || "An unknown error occurred";
+
+        if (errorMessage === "You're currently in single session mode. You can only be signed into one account at a time.")
+        {
+          errorMessage = "This email has already been added to the waitlist";
+        }
 
         setError("Error: " + errorMessage);
       }
@@ -112,10 +118,12 @@ const Form = (props) => {
       <Button handleSubmit={handleSubmit}/>
 
       {(status || error) && (
-        <p style={{ color: getStatusColor() }}>
-          {status ? status : error}
-        </p>)}
-
+        <div className="status-container">
+          <p style={{ color: getStatusColor() }}>
+            {status ? status : error}
+          </p>
+        </div>
+      )}
     </form>
   );
 };
