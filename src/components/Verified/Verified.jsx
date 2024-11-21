@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import './styles/Verified.css';
 import SuccessIcon from './images/success-icon.svg';
 import ExpiredIcon from './images/expired-icon.svg';
@@ -8,6 +9,16 @@ const Verified = () => {
   const isExpired = searchParams.get('__clerk_status') === 'expired';
 
   const statusColor = isExpired ? "red" : "green";
+
+  useEffect(() =>
+    {
+      const timer = setTimeout(() =>
+      {
+        window.location.href = "http://localhost:5173";
+      }, 10000);
+
+      return () => clearTimeout(timer);
+    }, [])
 
   return (
     <div className="verified-container">
