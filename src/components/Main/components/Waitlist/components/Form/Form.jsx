@@ -68,7 +68,7 @@ const Form = (props) => {
         // Start the email link flow
         const { startEmailLinkFlow } = signUp.createEmailLinkFlow();
         const su = await startEmailLinkFlow({
-          redirectUrl: "http://localhost:5173/verified",
+          redirectUrl: "http://www.swarmbase.ai/verified",
         });
 
         const verification = su.verifications.emailAddress;
@@ -111,7 +111,7 @@ const Form = (props) => {
           <Input label="Second name" type="text" state={lastName} onChangeHandler={handleLastNameChange} errorMessage={lastNameErrorMessage}/>
         </section>
         <section className='row2'>
-          <Input label="E-mail" type="email" state={email} onChangeHandler={handleEmailChange} errorMessage={emailErrorMessage}/>
+          <Input label="E-mail" type="email" state={email} onChangeHandler={handleEmailChange} errorMessage={emailErrorMessage} />
         </section>
         <Agreement setMainContent={props.setMainContent} agreement={agreement} onChangeHandler={handleAgreementChange} errorMessage={agreementErrorMessage}/>
       </section>

@@ -14,7 +14,7 @@ const Verified = () => {
     {
       const timer = setTimeout(() =>
       {
-        window.location.href = "http://localhost:5173";
+        window.location.href = "https://www.swarmbase.ai/";
       }, 10000);
 
       return () => clearTimeout(timer);
@@ -27,6 +27,7 @@ const Verified = () => {
           <>
             <h1>Registration failed!</h1>
             <p>The link has expired. Please try to register again.</p>
+            <p>You will be redirected in 10 seconds...</p>
             <img
               src={ExpiredIcon}
               alt="Expired"
@@ -37,6 +38,7 @@ const Verified = () => {
           <>
             <h1>Thanks for registering!</h1>
             <p>You can return to the original tab to continue.</p>
+            <p>You will be redirected in 10 seconds...</p>
             <img
               src={SuccessIcon}
               alt="Checkmark"
